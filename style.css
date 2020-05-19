@@ -19,13 +19,30 @@ ul{
 
 .container{
     display: grid;
-    grid-template-columns: 4fr 15fr 5fr;
+    grid-template-columns: 250px 5fr 295px;
     /* height: 100vh; */
 }
 #left-sidebar{
     background-color: #fff;
     
 }
+.left-sidebar-inner {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width:250px;
+}
+.right-sidebar-inner{
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 295px;
+    padding: 1.5rem;
+}
+
 
 .profile-info{
     margin: 1.5rem 2rem;
@@ -126,7 +143,7 @@ ul{
 }
 #right-sidebar{
     background-color: #fff;
-    padding: 1.5rem;
+   
 }
 #right-sidebar .search-box{
     padding: 0.5rem;
